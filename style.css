@@ -7,6 +7,7 @@
 
 .main{
     width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0,5)50%,rgba(0,0,0,0,5)50%);
     background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
     background-position: center;
     background-size: cover;
