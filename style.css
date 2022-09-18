@@ -15,7 +15,7 @@ body {
 
 .main{
     position: relative;
-    background: url("https://th.bing.com/th/id/R.d006c9ea64b8c8c6c772d51c413d88fa?rik=ZFnUgzrwdW4O1w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f5%2f1%2f681344.jpg&ehk=%2f9bCCvTkC%2bhQhSHI7U5hCh%2fywY3U1Nw7rAmB1Z7QGBU%3d&risl=&pid=ImgRaw&r=0");
+    background: url("https://img.freepik.com/premium-vector/abstract-stylish-modern-design-with-trendy-blue-gradient-wave-dark-background-design-brochure-website-flyer_68196-4305.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
@@ -75,7 +75,10 @@ transition: 0.4s ease-in-out;
 }
 
 ul li a:hover{
-color: #ff7200;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .search{
