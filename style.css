@@ -15,8 +15,8 @@ body {
 
 .main{
     position: relative;
-    background: url("https://img.freepik.com/premium-vector/abstract-stylish-modern-design-with-trendy-blue-gradient-wave-dark-background-design-brochure-website-flyer_68196-4305.jpg");
-    background-size: cover;
+    background: url("https://images.unsplash.com/photo-1576975220179-dd57b19f7537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmVvbiUyMGJsdWV8ZW58MHx8MHx8&w=1000&q=80");
+     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
     width: auto;
@@ -35,16 +35,55 @@ float: left;
 height: 70px;
 }
 
-.logo{
+.logo{ 
 font-size: 35px;
 font-family: '3d-float';
 padding-left: 20px;
 float: left;
 padding-top: 10px;
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+background: linear-gradient(
+  40deg, 
+  rgba(2,0,36,1) 16.666%,
+  rgba(9,9,121,1) 16.666%%,
+  rgba(9,9,121,1) 33.333%%,
+  rgba(0,212,255,1) 33.333%,
+  rgba(0,212,255,1) 50%,
+  rgba(2,0,36,1) 50%,
+  rgba(2,0,36,1) 66.666%,
+  rgba(9,9,121,1) 66.666%%,
+  rgba(0,212,255,1) 83.333%,
+  rgba(2,0,36,1) 83.333%;
+  background-size: 100%;
+  background-repeat: repeat;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+background-color: #ffffff;
+animation rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.logo:hover{
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+      background-size: 650%;
+  }
+  40% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 100%;
+  }
+  @keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
 }
 
 .menu{
