@@ -15,8 +15,8 @@ body {
 
 .main{
     position: relative;
-    background: url("https://images.unsplash.com/photo-1576975220179-dd57b19f7537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmVvbiUyMGJsdWV8ZW58MHx8MHx8&w=1000&q=80");
-     background-size: cover;
+    background: url("https://th.bing.com/th/id/R.d006c9ea64b8c8c6c772d51c413d88fa?rik=ZFnUgzrwdW4O1w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f5%2f1%2f681344.jpg&ehk=%2f9bCCvTkC%2bhQhSHI7U5hCh%2fywY3U1Nw7rAmB1Z7QGBU%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
     background-attachment: fixed;
     background-position: right center;
     width: auto;
@@ -35,55 +35,13 @@ float: left;
 height: 70px;
 }
 
-.logo{ 
+.logo{
+color: #ff7200;
 font-size: 35px;
 font-family: '3d-float';
 padding-left: 20px;
 float: left;
 padding-top: 10px;
-background: linear-gradient(
-  40deg, 
-  rgba(2,0,36,1) 16.666%,
-  rgba(9,9,121,1) 16.666%%,
-  rgba(9,9,121,1) 33.333%%,
-  rgba(0,212,255,1) 33.333%,
-  rgba(0,212,255,1) 50%,
-  rgba(2,0,36,1) 50%,
-  rgba(2,0,36,1) 66.666%,
-  rgba(9,9,121,1) 66.666%%,
-  rgba(0,212,255,1) 83.333%,
-  rgba(2,0,36,1) 83.333%;
-  background-size: 100%;
-  background-repeat: repeat;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-color: #ffffff;
-animation rainbow-text-simple-animation-rev 0.75s ease forwards;
-}
-
-.logo:hover{
-  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-}
-@keyframes rainbow-text-simple-animation-rev {
-  0% {
-      background-size: 650%;
-  }
-  40% {
-      background-size: 650%;
-  }
-  100% {
-      background-size: 100%;
-  }
-  @keyframes rainbow-text-simple-animation {
-    0% {
-        background-size: 100%;
-    }
-    80% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 650%;
-    }
 }
 
 .menu{
@@ -114,11 +72,7 @@ transition: 0.4s ease-in-out;
 }
 
 ul li a:hover{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: 0.4s ease-in-out;
+color: #ff7200;
 }
 
 .search{
@@ -132,8 +86,8 @@ font-family: 'Times New Roman';
 width: 200px;
 height: 40px;
 background: transparent;
-border: 1px solid rgb(23, 23, 170);
-margin-top: 30px;
+border: 1px solid #ff7200;
+margin-top: 13px;
 color: #fff;
 border-right: none;
 font-size: 16px;
@@ -145,9 +99,9 @@ border-top-left-radius: 5px;
 .btn{
 width: 100px;
 height: 40px;
-background: rgb(23, 23, 170);
-border: 2px solid rgb(23, 23, 170);
-margin-top: 30px;
+background: #ff7200;
+border: 2px solid #ff7200;
+margin-top: 13px;
 color: #fff;
 font-size: 15px;
 border-bottom-right-radius: 5px;
@@ -190,7 +144,7 @@ letter-spacing: 1.2px;
 .content .cn{
 width: 160px;
 height: 40px;
-background: rgb(23, 23, 170);
+background: #ff7200;
 border: none;
 margin-bottom: 10px;
 margin-left: 20px;
@@ -211,9 +165,7 @@ background-color: #fff;
 }
 
 .content span{
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent);
+  color: #ff7200;
   font-size: 60px;
 }
 
@@ -232,7 +184,7 @@ background-color: #fff;
   width: 220px;
   font-family: sans-serif;
   text-align: center;
-  color: rgb(23, 23, 170);
+  color: #ff7200;
   font-size: 22px;
   background-color: #fff;
   border-radius: 10px;
@@ -244,7 +196,7 @@ background-color: #fff;
   width: 240px;
   height: 35px;
   background: transparent;
-  border-bottom: 1px solid rgb(23, 23, 170);
+  border-bottom: 1px solid #ff7200;
   border-top: none;
   border-right: none;
   border-left: none;
