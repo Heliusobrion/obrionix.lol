@@ -131,3 +131,10 @@ outline: none;
   margin-top: 9px;
   letter-spacing: 2px;
 }
+
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+}
