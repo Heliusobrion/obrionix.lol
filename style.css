@@ -14,12 +14,12 @@ body {
 }
 
 .main{
-    position: relative;
     background: url("https://th.bing.com/th/id/R.d006c9ea64b8c8c6c772d51c413d88fa?rik=ZFnUgzrwdW4O1w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f5%2f1%2f681344.jpg&ehk=%2f9bCCvTkC%2bhQhSHI7U5hCh%2fywY3U1Nw7rAmB1Z7QGBU%3d&risl=&pid=ImgRaw&r=0");
+    position: relative;
     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
-    width: auto;
+    width: 100%;
     height: calc(100vh - 90px);
 }
 
