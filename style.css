@@ -36,12 +36,14 @@ height: 70px;
 }
 
 .logo{
-color: #ff7200;
 font-size: 35px;
 font-family: '3d-float';
 padding-left: 20px;
 float: left;
 padding-top: 10px;
+background: linear-gradient(90deg, #00dbde, #fc00ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .menu{
