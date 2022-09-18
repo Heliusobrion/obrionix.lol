@@ -3,21 +3,22 @@
   padding: 0;
 }
 /*Idk what's wrong in this part navbar is inheriting main */
+
+
 .main{
+    width: 100%;
     background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    color: #FFFFFF;
-}
-.stop{
+    height: 109vh;
 }
 
-.navbar {
-width: 1200px;
-height: 75px;
-margin: auto;
-}
+
+  .navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+  }
 
 .icon{
 width: 200px;
