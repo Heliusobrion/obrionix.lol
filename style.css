@@ -10,11 +10,13 @@
     background-size: cover;
     color: #FFFFFF;
 }
-.navbar{
+
+.navbar {
 width: 1200px;
 height: 75px;
 margin: auto;
 }
+
 .icon{
 width: 200px;
 float: left;
