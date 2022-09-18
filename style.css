@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/*Idk what's wrong in this part navbar is inheriting main */
 .main{
     background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
     background-repeat: no-repeat;
