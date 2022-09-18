@@ -93,7 +93,7 @@ font-family: 'Times New Roman';
 width: 200px;
 height: 40px;
 background: transparent;
-border: 1px solid #ff7200;
+border: 1px solid rgb(23, 23, 170);
 margin-top: 13px;
 color: #fff;
 border-right: none;
@@ -106,8 +106,8 @@ border-top-left-radius: 5px;
 .btn{
 width: 100px;
 height: 40px;
-background: #ff7200;
-border: 2px solid #ff7200;
+background: rgb(23, 23, 170);
+border: 2px solid rgb(23, 23, 170);
 margin-top: 13px;
 color: #fff;
 font-size: 15px;
@@ -151,7 +151,7 @@ letter-spacing: 1.2px;
 .content .cn{
 width: 160px;
 height: 40px;
-background: #ff7200;
+background: rgb(23, 23, 170);
 border: none;
 margin-bottom: 10px;
 margin-left: 20px;
@@ -172,7 +172,7 @@ background-color: #fff;
 }
 
 .content span{
-  color: #ff7200;
+  color: rgb(23, 23, 170);
   font-size: 60px;
 }
 
@@ -191,7 +191,7 @@ background-color: #fff;
   width: 220px;
   font-family: sans-serif;
   text-align: center;
-  color: #ff7200;
+  color: rgb(23, 23, 170);
   font-size: 22px;
   background-color: #fff;
   border-radius: 10px;
@@ -203,7 +203,7 @@ background-color: #fff;
   width: 240px;
   height: 35px;
   background: transparent;
-  border-bottom: 1px solid #ff7200;
+  border-bottom: 1px solid rgb(23, 23, 170);
   border-top: none;
   border-right: none;
   border-left: none;
