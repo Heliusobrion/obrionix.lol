@@ -1,4 +1,11 @@
-
+@media screen and (max-width: 767px) {
+  .gallery-fullscreen-slideshow[data-height="L"] {
+    height: auto !important;
+  }
+  .gallery-fullscreen-slideshow-item img {
+    object-fit: contain !important;
+  }
+}
 body {
   position: relative;
   font-family: 'PT Sans', sans-serif;
