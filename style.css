@@ -18,13 +18,6 @@ html, body {
   justify-content: center;
   contain: content;
   overflow: clip;
-}
-body {
-  position: relative;
-  font-family: 'PT Sans', sans-serif;
-  overflow-x: hidden;
-  background-color: #111;
-}
 
 .main{
     position: relative;
